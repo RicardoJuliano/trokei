@@ -239,4 +239,88 @@ footer {
         max-width: 340px;
     }
 }
-    
+ /* CADASTRO */
+.form-section {
+    min-height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5ede8;
+    padding: 40px 16px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+    font-size: 24px;
+    color: #CB5235;
+    margin-bottom: 8px;
+}
+
+.form-container p {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 24px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.campo label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+
+.campo input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.campo input:focus {
+    border-color: #CB5235;
+}
+
+.erro {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 12px;
+    min-height: 16px;
+}
+
+.form-container .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 13px;
+    color: #888;
+}
+
+.login-link a {
+    color: #CB5235;
+    text-decoration: none;
+    font-weight: bold;
+}   
