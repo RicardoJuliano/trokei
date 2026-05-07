@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Trokei - Brechó 100% online</title>
+    
 </head>
+   
 <body>
 
     <header>
+        
         <nav>
             <div class="logo">
                 <a href="index.html">Trokei</a>
@@ -22,7 +25,7 @@
             <div class="acoes">
                 <a href="#">🔍</a>
                 <a href="#">👤</a>
-                <a href="#">🛒</a>
+                <a href="#" id="carrinho">🛒 <span id="contador-carrinho">0</span></a>
             </div>
         </nav>
     </header>
@@ -42,7 +45,7 @@
                     <h3>Jaqueta Jeans</h3>
                     <p>Tamanho M — Ótimo estado</p>
                     <span class="preco">R$ 45,00</span>
-                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn" onclick="adicionarAoCarrinho('Jaqueta Jeans')">Comprar</a>  
                 </div>
             </div>
             <div class="card">
@@ -51,7 +54,7 @@
                     <h3>Vestido Floral</h3>
                     <p>Tamanho P — Usado 1x</p>
                     <span class="preco">R$ 35,00</span>
-                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn" onclick="adicionarAoCarrinho('Vestido Floral')">Comprar</a>
                 </div>
             </div>
             <div class="card">
@@ -60,7 +63,7 @@
                     <h3>Calça Vintage</h3>
                     <p>Tamanho 40 — Seminova</p>
                     <span class="preco">R$ 55,00</span>
-                    <a href="#" class="btn">Comprar</a>
+                    <a href="#" class="btn" onclick="adicionarAoCarrinho('Calça Vintage')">Comprar</a>
                 </div>
             </div>
         </div>
