@@ -42,3 +42,16 @@ if (form) {
         alert('Conta criada com sucesso! Bem-vindo(a), ' + nome + '!')
     })
 }
+const cards = document.querySelectorAll('.card')
+
+const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visivel')
+        }
+    })
+}, { threshold: 0.1 })
+
+cards.forEach(function(card) {
+    observer.observe(card)
+})
