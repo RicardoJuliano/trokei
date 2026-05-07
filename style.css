@@ -95,3 +95,63 @@ footer {
     padding: 20px;
     font-size: 12px;
 }
+/* PRODUTOS */
+.produtos {
+    padding: 60px 32px;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 28px;
+    color: #CB5235;
+    margin-bottom: 40px;
+}
+
+.grid-produtos {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 260px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-img {
+    background-color: #f0e6e0;
+    height: 200px;
+}
+
+.card-info {
+    padding: 16px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-info h3 {
+    font-size: 16px;
+}
+
+.card-info p {
+    font-size: 13px;
+    color: #888;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #CB5235;
+}
+
+.card .btn {
+    text-align: center;
+    margin-top: 8px;
+}
