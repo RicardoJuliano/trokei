@@ -1,28 +1,19 @@
 # Trokei — Brechó Online
 
-Aplicação web de brechó online com catálogo de produtos, cadastro e interface responsiva.
+Projeto de brechó online que fiz para estudar fluxo de e-commerce antes de partir para o Boutique Arco-Íris. Tem catálogo de peças, cadastro e uma interface simples e responsiva.
 
-## Tecnologias
+## Stack
 
-- HTML5 semântico
-- CSS3 com Flexbox e Grid
-- JavaScript
-
-## Funcionalidades
-
-- Catálogo de produtos com listagem e filtros
-- Cadastro e visualização de peças
-- Interface responsiva para mobile e desktop
+HTML5, CSS3, JavaScript
 
 ## Como rodar
-
-Clone o repositório e abra o `index.html` no navegador.
 
 ```bash
 git clone https://github.com/RicardoJuliano/trokei.git
 cd trokei
+# abre o index.html no navegador
 ```
 
-## Autor
+---
 
-Ricardo Juliano — [LinkedIn](https://linkedin.com/in/ricardo-juliano) • [GitHub](https://github.com/RicardoJuliano)
+Ricardo Juliano — [LinkedIn](https://linkedin.com/in/ricardo-juliano)
