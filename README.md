@@ -1,19 +1,40 @@
-# Trokei — Brechó Online
+# Trokei
 
-Projeto de brechó online que fiz para estudar fluxo de e-commerce antes de partir para o Boutique Arco-Íris. Tem catálogo de peças, cadastro e uma interface simples e responsiva.
+Prototipo de brecho online feito com HTML, CSS e JavaScript puro.
+
+A proposta do Trokei e apresentar uma vitrine simples para moda sustentavel: produtos em destaque, chamada para compra e venda de pecas, menu responsivo e uma experiencia basica de carrinho no navegador.
+
+## O que funciona
+
+- Pagina inicial com hero, navegacao e produtos em destaque.
+- Contador de itens no carrinho.
+- Botao de compra com feedback visual via alerta.
+- Menu mobile.
+- Animacao de entrada dos cards de produto com `IntersectionObserver`.
+- Pagina de cadastro com validacao no frontend.
 
 ## Stack
 
-HTML5, CSS3, JavaScript
+- HTML
+- CSS
+- JavaScript
 
-## Como rodar
+## Estrutura
 
-```bash
-git clone https://github.com/RicardoJuliano/trokei.git
-cd trokei
-# abre o index.html no navegador
+```txt
+.
+├── index.html       # vitrine principal
+├── cadastro.html    # formulario de cadastro
+├── style.css        # layout e responsividade
+└── script.js        # menu, carrinho e validacoes
 ```
 
----
+## Rodando
 
-Ricardo Juliano — [LinkedIn](https://linkedin.com/in/ricardo-juliano)
+Abra o arquivo `index.html` no navegador.
+
+Nao existe etapa de build, servidor ou instalacao de dependencias.
+
+## Observacoes
+
+O carrinho e o cadastro sao simulados no frontend. O projeto ainda nao possui backend, banco de dados, login real ou checkout. Ele funciona bem como base visual e interativa para evoluir para uma loja completa.
