@@ -1,17 +1,17 @@
 # Trokei
 
-Prototipo de brecho online feito com HTML, CSS e JavaScript puro.
+Protótipo de brechó online feito com HTML, CSS e JavaScript puro.
 
-A proposta do Trokei e apresentar uma vitrine simples para moda sustentavel: produtos em destaque, chamada para compra e venda de pecas, menu responsivo e uma experiencia basica de carrinho no navegador.
+A proposta do Trokei é apresentar uma vitrine simples para moda sustentável: produtos em destaque, chamada para compra e venda de peças, menu responsivo e uma experiência básica de carrinho no navegador.
 
 ## O que funciona
 
-- Pagina inicial com hero, navegacao e produtos em destaque.
+- Página inicial com hero, navegação e produtos em destaque.
 - Contador de itens no carrinho.
-- Botao de compra com feedback visual via alerta.
+- Botão de compra com aviso visual por alerta.
 - Menu mobile.
-- Animacao de entrada dos cards de produto com `IntersectionObserver`.
-- Pagina de cadastro com validacao no frontend.
+- Animação de entrada dos cards de produto com `IntersectionObserver`.
+- Página de cadastro com validação no frontend.
 
 ## Stack
 
@@ -24,17 +24,17 @@ A proposta do Trokei e apresentar uma vitrine simples para moda sustentavel: pro
 ```txt
 .
 ├── index.html       # vitrine principal
-├── cadastro.html    # formulario de cadastro
+├── cadastro.html    # formulário de cadastro
 ├── style.css        # layout e responsividade
 └── script.js        # menu, carrinho e validacoes
 ```
 
-## Rodando
+## Como rodar
 
 Abra o arquivo `index.html` no navegador.
 
-Nao existe etapa de build, servidor ou instalacao de dependencias.
+Não existe etapa de build, servidor ou instalação de dependencias.
 
-## Observacoes
+## Observações
 
-O carrinho e o cadastro sao simulados no frontend. O projeto ainda nao possui backend, banco de dados, login real ou checkout. Ele funciona bem como base visual e interativa para evoluir para uma loja completa.
+O carrinho e o cadastro são simulados no frontend. O projeto ainda não possui backend, banco de dados, login real ou checkout. Serve como base visual e interativa para evoluir para uma loja completa.
